@@ -1,11 +1,10 @@
 
-export const Card = () => {
+export const Card = ({titulo, desc, precio}) => {
   return (
-    <div>
-        <h2> titulo </h2>
-        <img src="" />
-        <h3>descripcion</h3>
-        <h4>precio</h4>
+    <div style={{border: "2px solid green"}}>
+        <h2> {titulo} </h2>
+        <h3> {desc} </h3>
+        <h4> {precio} </h4>
     </div>
   )
 }

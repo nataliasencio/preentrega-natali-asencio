@@ -1,7 +1,7 @@
 //importo el navbar
 import { Navbar } from "./components/layout/Navbar"
 //importo el itemlistcontainer
-import { ItemListContainer } from " ./components/pages/ItemListContainer"
+import ItemListContainer from "./components/pages/ItemListContainer"
 
 
 const App = ()=> {

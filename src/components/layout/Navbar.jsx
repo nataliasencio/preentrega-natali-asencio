@@ -1,10 +1,12 @@
+//importo el CartWidget
+import CartWidget from "../common/CartWidget"
 
 export const Navbar = ()=>{
 
         return(
-            
+        <div>
+            <img src="https://res.cloudinary.com/drm9tm64q/image/upload/v1707347975/images_btflyx.jpg" alt="" />
             <nav>
-                <img src="https://res.cloudinary.com/drm9tm64q/image/upload/v1707347975/images_btflyx.jpg" alt="" />
                 <ul>
                     <li className="colorLetraMenu">ropa deportiva mujer</li>
                     <li className="colorLetraMenu">ropa deportiva hombre</li>
@@ -13,5 +15,14 @@ export const Navbar = ()=>{
                     <li className="colorLetraMenu">deportes</li>
                 </ul>
             </nav>
+
+            {/* carrito */}
+            <CartWidget />
+            
+          
+
+        </div>
+              
+         
         )
     }
