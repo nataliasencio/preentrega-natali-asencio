@@ -13,7 +13,7 @@ const App = ()=> {
    <div> 
     {/* invoco el componente Navbar */}
     <Navbar />
-    <ItemListContainer />
+    <ItemListContainer greeting={"Bienvenido"}/>
    
    </div>
   )
