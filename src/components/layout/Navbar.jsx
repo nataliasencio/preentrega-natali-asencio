@@ -1,28 +1,30 @@
 //importo el CartWidget
 import CartWidget from "../common/CartWidget"
+//el css
+import "./Navbar.css"
 
 export const Navbar = ()=>{
 
         return(
-        <div>
-            <img src="https://res.cloudinary.com/drm9tm64q/image/upload/v1707347975/images_btflyx.jpg" alt="" />
-            <nav>
-                <ul>
-                    <li className="colorLetraMenu">ropa deportiva mujer</li>
-                    <li className="colorLetraMenu">ropa deportiva hombre</li>
-                    <li className="colorLetraMenu">zapatillas mujer</li>
-                    <li className="colorLetraMenu">zapatillas hombre</li>
-                    <li className="colorLetraMenu">deportes</li>
-                </ul>
-            </nav>
+            <header>
+                
+                   
+                
+                <nav>
+                    <img src="https://res.cloudinary.com/drm9tm64q/image/upload/v1709095004/logo-leon_r1bgq9.png" alt="" />
+                    <ul>
+                        <li className="menu">Ropa Deportiva</li>
+                        <li className="menu">Zapatillas Deportivas</li>
+                        <li className="menu">Todo Deportes</li>
+                    </ul>
+                    {/* carrito */}
+                    <CartWidget />
+                </nav>
 
-            {/* carrito */}
-            <CartWidget />
             
-          
-
-        </div>
-              
+            
+          </header>
+        
          
         )
     }
