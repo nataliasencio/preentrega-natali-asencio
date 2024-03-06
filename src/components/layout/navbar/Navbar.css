@@ -8,7 +8,8 @@
 
 header{
     background-color: black;
-    height: 200px;
+    height: 150px;
+    margin-top: 10px;
 
 }
 /* estilos del header */
@@ -19,9 +20,8 @@ header nav{
     align-items: center;
     margin-left: 0px;
     margin-right: 10px;
-    margin-bottom: 50px;
-    margin-top: 10px;
-    background-color: rgb(171, 171, 194);
+    margin-bottom: 30px;
+    
 }
 
 header nav ul{
@@ -35,12 +35,12 @@ header nav ul{
 .menu{
     width: 200px;
     height: 30px;
-    background-color: rgb(138, 138, 229);
+    background-color: cornflowerblue;
    font-size: 20px;
 }
 
 header nav ul li:hover{
     text-align: center;
-    background-color: rgb(25, 29, 29);
-    color: whitesmoke;
+    background-color: rgb(173, 180, 194);
+    color: black;
 }
